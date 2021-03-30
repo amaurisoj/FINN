@@ -1,0 +1,99 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{ 
+    background-color: #2cb3f3;
+    width: 1290px;
+    height: 1024px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    position: relative;
+    left: 250px;
+}
+
+.body-title {
+    font-size: 56px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.body-sub-title{
+    font-size: 30px;
+}
+.container-head {
+    width: 800px;
+    height: 600px; 
+    border-radius: 100px 100px 0px 0px;
+    background-color: #FFF;
+    position: absolute;
+    left: 500px
+}
+.face{
+    border-radius: 50%;
+    background-color: #FFE1C9;
+    width: 692px;
+    height: 487px;
+    position: relative;
+    top: 64px;
+    left: 60px;
+}
+
+.eye-l{
+    border-radius: 50%;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.eye-r{
+    border-radius: 50%;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+
+.form{
+  width: 300px;
+  position: absolute;
+  top: 320px;
+  left: 210px;
+}
+.data{
+    width: 370px;
+    height: 60px;
+    background: #FFFF;
+    border: 3px solid #000000;
+    font-size: 24px;
+    color: #CCCCCC;
+}
+button{
+position: absolute;
+width: 220px;
+height: 70px;
+left: 290px;
+top: 650px;
+
+background: #55A603;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #B2F272;
+}

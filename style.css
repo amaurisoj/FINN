@@ -6,8 +6,8 @@
 }
 body{ 
     background-color: #2cb3f3;
-    width: 1290px;
-    height: 1024px;
+    width: 70vw;
+    height: 50vh;
 }
 header {
     display: flex;
@@ -33,7 +33,7 @@ header {
     border-radius: 100px 100px 0px 0px;
     background-color: #FFF;
     position: absolute;
-    left: 500px
+    left: 25%
 }
 .face{
     border-radius: 50%;
